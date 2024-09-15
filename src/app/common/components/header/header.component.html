@@ -13,21 +13,21 @@
         <div class="mobile-menu">
             <mat-icon fontIcon="menu" [matMenuTriggerFor]="menu"/>
             <mat-menu #menu="matMenu">
-                <a mat-menu-item href="#">Home</a>
-                <a mat-menu-item href="#">Services</a>
-                <a mat-menu-item href="#">Events</a>
-                <a mat-menu-item href="#">Gallery</a>
-                <a mat-menu-item href="#">Contact</a>
-                <a mat-menu-item href="#">About us</a>
+                <a mat-menu-item routerLink="/">Home</a>
+                <a mat-menu-item routerLink="service">Services</a>
+                <a mat-menu-item routerLink="event">Events</a>
+                <a mat-menu-item routerLink="gallery">Gallery</a>
+                <a mat-menu-item routerLink="contact">Contact</a>
+                <a mat-menu-item routerLink="about">About us</a>
             </mat-menu>
         </div>
         <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Events</a></li>
-            <li><a href="#">Gallery</a></li>
-            <li><a href="#">Contact</a></li>
-            <li><a href="#">About us</a></li>
+            <li><a routerLink="/">Home</a></li>
+            <li><a routerLink="service">Services</a></li>
+            <li><a routerLink="event">Events</a></li>
+            <li><a routerLink="gallery">Gallery</a></li>
+            <li><a routerLink="contact">Contact</a></li>
+            <li><a routerLink="about">About us</a></li>
         </ul>
     </nav>
 </header>

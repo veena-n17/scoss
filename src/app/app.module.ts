@@ -6,10 +6,21 @@ import { AppComponent } from './app.component';
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
 import { ScossMatModule } from './common/mat/mat.module';
 import { ScossCommonModule } from './common/common.module';
+import {
+  HomeComponent, ServiceComponent, EventsComponent,
+  GalleryComponent, ContactComponent, AboutComponent
+} from './components';
+
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HomeComponent,
+    ServiceComponent,
+    EventsComponent,
+    GalleryComponent,
+    ContactComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
