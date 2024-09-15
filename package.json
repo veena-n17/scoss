@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "git-b":"ng b --base-href '/scoss/'"
+    "git-b":"ng b --base-href scoss/"
   },
   "private": true,
   "dependencies": {
