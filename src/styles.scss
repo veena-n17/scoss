@@ -36,6 +36,12 @@ $scoss-theme: mat.define-light-theme(
 // that you are using.
 @include mat.all-component-themes($scoss-theme);
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 html,
 body {
   height: 100%;
