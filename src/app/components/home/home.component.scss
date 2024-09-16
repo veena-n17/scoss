@@ -1,0 +1,22 @@
+div.wrapper {
+    margin: 1em 2em;
+    > div.content {
+        > p {
+            margin-bottom: 0.5em;
+            > strong {
+            }
+        }
+        > div.bullet {
+            > p {
+                margin: 0.15em 1em;
+                > strong {
+                    &::after{
+                        content: '-';
+                        margin: 0 10px;
+                    }
+                }
+            }
+            
+        }
+    }
+}
