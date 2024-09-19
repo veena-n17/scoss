@@ -8,9 +8,9 @@ import { ScossMatModule } from './common/mat/mat.module';
 import { ScossCommonModule } from './common/common.module';
 import {
   HomeComponent, ServiceComponent, EventsComponent,
-  GalleryComponent, ContactComponent, AboutComponent
+  GalleryComponent, ContactComponent, AboutComponent,
+  UnderConstructionComponent
 } from './components';
-
 
 @NgModule({
   declarations: [
@@ -20,7 +20,8 @@ import {
     EventsComponent,
     GalleryComponent,
     ContactComponent,
-    AboutComponent
+    AboutComponent,
+    UnderConstructionComponent
   ],
   imports: [
     BrowserModule,

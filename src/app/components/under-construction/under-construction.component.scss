@@ -1,0 +1,11 @@
+div.wrapper {
+    min-height: calc(100vh - 169px - 6em);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @media (max-width: 565px) {
+        > img {
+            width: 100%;
+        }
+    }
+}

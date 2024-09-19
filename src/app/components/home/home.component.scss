@@ -3,20 +3,55 @@ div.wrapper {
     > div.content {
         > p {
             margin-bottom: 0.5em;
-            > strong {
+            > strong.highlight {
+                color: #ff0000;
             }
         }
         > div.bullet {
             > p {
                 margin: 0.15em 1em;
                 > strong {
-                    &::after{
-                        content: '-';
+                    &::after {
+                        content: "-";
                         margin: 0 10px;
                     }
                 }
             }
-            
+        }
+    }
+    > div.services {
+        margin: 3em 0;
+        display: grid;
+        grid-template-columns: 300px 300px 300px;
+        gap: 2em;
+        justify-content: center;
+        .service-card {
+            .mat-mdc-card-title {
+                margin-bottom: 8px;
+            }
+            p {
+                margin: 1em 0;
+            }
+        }
+    }
+    > div.client {
+        background-color: white;
+        text-align: center;
+        padding: 4em 0;
+        h4 {
+            font-size: 20px;
+            margin-bottom: 2em;
+        }
+        > div.client-logos {
+            > img {
+                height: 200px;
+                object-fit: contain;
+                margin: 0 2em;
+            }
+            > img:nth-of-type(1) {
+            }
+            > img:nth-of-type(2) {
+            }
         }
     }
 }
