@@ -1,2 +1,2 @@
 # SCOSS Website
-site url [scoss](https://scoss.services)
+site url <a href="https://scoss.services" target="blank">scoss.services</a>
