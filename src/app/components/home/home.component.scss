@@ -25,9 +25,12 @@ div.wrapper {
     > div.services {
         margin: 3em 0;
         display: grid;
-        grid-template-columns: 300px 300px 300px;
+        grid-template-columns: 300px 300px 300px 300px;
         gap: 2em;
         justify-content: center;
+        @media (max-width:1454px) {
+            grid-template-columns: 300px 300px 300px;
+        }
         @media (max-width:1108px) {
             grid-template-columns: 300px 300px;
         }
