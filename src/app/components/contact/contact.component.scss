@@ -24,6 +24,7 @@ div.wrapper {
             align-items: center;
             justify-content: center;
             height: calc(100% - 4em);
+            gap: 1em;
             > iframe {
                 width: 100%;
             }
@@ -36,44 +37,10 @@ div.wrapper {
                 align-items: center;
                 gap: 10px;
             }
-        }
-    }
-    > div.box.location {
-        > h3 {
-        }
-        > div.content {
-            > iframe {
+            >svg {
+                height: 4rem;
+                width: 4rem;
             }
-        }
-    }
-    > div.box.contact {
-        > h3 {
-        }
-        > div.content {
-            > a {
-                > mat-icon {
-                    > span {
-                    }
-                }
-            }
-        }
-    }
-    > div.box.email {
-        > h3 {
-        }
-        > div.content {
-            > a {
-                > mat-icon {
-                    > span {
-                    }
-                }
-            }
-        }
-    }
-    > div.box.follow {
-        > h3 {
-        }
-        > div.content {
         }
     }
 }
