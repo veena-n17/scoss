@@ -5,7 +5,7 @@ import { AboutComponent, ContactComponent, EventsComponent, GalleryComponent, Ho
 const routes: Routes = [
   { path: '', component: HomeComponent, pathMatch: 'full' },
   { path: 'about', component: AboutComponent },
-  { path: 'contact', component: UnderConstructionComponent },
+  { path: 'contact', component: ContactComponent },
   { path: 'event', component: UnderConstructionComponent },
   { path: 'gallery', component: UnderConstructionComponent },
   { path: 'service', component: UnderConstructionComponent },
