@@ -7,7 +7,7 @@ const routes: Routes = [
   { path: 'about', component: AboutComponent },
   { path: 'contact', component: ContactComponent },
   { path: 'event', component: UnderConstructionComponent },
-  { path: 'gallery', component: UnderConstructionComponent },
+  { path: 'gallery', component: GalleryComponent },
   { path: 'service', component: UnderConstructionComponent },
   { path: 'home', redirectTo: '' },
 ];

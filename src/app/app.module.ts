@@ -11,6 +11,7 @@ import {
   GalleryComponent, ContactComponent, AboutComponent,
   UnderConstructionComponent
 } from './components';
+import { GalleryUnitComponent } from './components/gallery-unit/gallery-unit.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import {
     GalleryComponent,
     ContactComponent,
     AboutComponent,
-    UnderConstructionComponent
+    UnderConstructionComponent,
+    GalleryUnitComponent
   ],
   imports: [
     BrowserModule,
