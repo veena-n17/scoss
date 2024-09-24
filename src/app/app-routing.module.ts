@@ -6,10 +6,11 @@ const routes: Routes = [
   { path: '', component: HomeComponent, pathMatch: 'full' },
   { path: 'about', component: AboutComponent },
   { path: 'contact', component: ContactComponent },
-  { path: 'event', component: UnderConstructionComponent },
+  { path: 'event', component: EventsComponent },
   { path: 'gallery', component: GalleryComponent },
   { path: 'service', component: UnderConstructionComponent },
   { path: 'home', redirectTo: '' },
+  { path: '**', redirectTo: '' },
 ];
 
 @NgModule({
