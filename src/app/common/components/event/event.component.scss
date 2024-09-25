@@ -13,19 +13,26 @@ div.wrapper {
         0px 1px 3px 0px rgba(0, 0, 0, 0.12);
     max-width: 1000px;
     margin: 0 auto;
-    @media (max-width:1308px) {
+    @media (max-width: 1308px) {
         max-width: unset;
         width: 80%;
     }
-    @media (max-width:1082px) {
+    @media (max-width: 1082px) {
         max-width: unset;
         width: 90%;
     }
-    @media (max-width:991px) {
+    @media (max-width: 991px) {
         grid-template-rows: 1fr;
+        grid-template-columns: 6px 1fr 350px;
     }
-    @media (max-width:838px) {
+    @media (max-width: 838px) {
         grid-template-columns: 6px 1fr 200px;
+    }
+    @media (max-width: 689px) {
+        grid-template-columns: 1fr;
+        grid-template-rows: 6px 1fr 150px;
+        max-width: 300px;
+        padding: 10px 0;
     }
     > div.indicator {
         height: 100%;
@@ -45,27 +52,30 @@ div.wrapper {
             justify-content: space-evenly;
             align-items: center;
             margin-top: 15px;
-            @media (max-width:991px) {
+            @media (max-width: 991px) {
                 flex-direction: column;
                 gap: 1em;
+                padding: 1em 0;
             }
             > p.event-time {
                 font-size: 0.8rem;
                 font-weight: 600;
-                @media (max-width:991px) {
+                @media (max-width: 991px) {
                     order: 1;
                 }
             }
-            > button.up-coming {
-                visibility: hidden;
-                @media (max-width:991px) {
+            > button {
+                @media (max-width: 991px) {
                     order: 3;
+                }
+                &.up-coming{
+                    visibility: hidden;
                 }
             }
             > p.event-status {
                 text-transform: uppercase;
                 font-weight: 600;
-                @media (max-width:991px) {
+                @media (max-width: 991px) {
                     order: 2;
                 }
                 &.up-coming {
