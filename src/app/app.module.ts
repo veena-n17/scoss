@@ -12,6 +12,7 @@ import {
   UnderConstructionComponent
 } from './components';
 import { GalleryUnitComponent } from './components/gallery-unit/gallery-unit.component';
+import { ValuePropositionSectionComponent } from './components/home/value-proposition-section/value-proposition-section.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { GalleryUnitComponent } from './components/gallery-unit/gallery-unit.com
     ContactComponent,
     AboutComponent,
     UnderConstructionComponent,
-    GalleryUnitComponent
+    GalleryUnitComponent,
+    ValuePropositionSectionComponent
   ],
   imports: [
     BrowserModule,
