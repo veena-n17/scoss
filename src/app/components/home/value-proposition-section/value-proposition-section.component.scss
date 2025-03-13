@@ -1,0 +1,60 @@
+$red: #ff0000;
+$yellow: #ffcc00;
+
+.Value-Proposition-Section{
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    
+    h2{
+        color: red;
+
+    }
+    ul{
+        display: grid;
+        grid-template-columns: repeat(3,250px);
+        gap: 1em;
+        li{
+            // border: 2px solid black;
+            margin: 10px;
+            list-style: none;
+            text-align: center;
+            padding: 2em;
+            box-shadow: 0 0 10px 5px rgba($color: #000000, $alpha: 0.1);
+            border-radius: 30px;
+            transition: transform 0.5s;
+            &:hover{
+                transform: scale(1.1);
+            }
+
+            img{
+                width: 100%;
+                margin-bottom: 20px;
+            }
+        }  
+    }
+
+
+    button {
+            background: linear-gradient(to right, $red, $yellow);
+            border: none;
+            border-radius: 50px;
+            color: white;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: 0.3s;
+
+    &:hover {
+        background: linear-gradient(to bottom left, darken($yellow, 2%), darken($red, 2%));
+        transform: scale(1.05);
+        box-shadow: 0 4px 10px rgba(255,255,255,0.3);
+        }
+    }
+
+    
+}
